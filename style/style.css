@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+/* index*/
+
+body{
+    background-color: white
+}
+
+.logoNav{
+    width: 100px;
+    height: 100px;
+}
+
+.carousel{
+    margin-top: 50px;
+}
+
+.textoBloq{
+    display: flex;
+}
+
+
+.tituloIndex{
+    color: black;
+    margin-top: 150px;
+    text-align: center;
+}
+
+.bloque_botom1{
+    padding: 3%;
+    margin: 50px;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    font-weight: 400;
+    border-radius: 25px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.button_idex{
+    padding: 1%;
+    box-shadow: 0 5px 28px 0 maroon;
+    border-radius: 5px;
+    background: gray;
+    text-decoration: none;
+}
+
+.preguntasFrecuentes{
+    margin: 5vh 0 5vh 0;
+    text-align: center;
+    font-size: x-large;
+}
+
+.seccionesPreguntas{
+    padding: 50px;
+    font-size: x-large;
+}
+.imgBanner{
+    margin-left: 450px;
+    margin-bottom: 50px;
+}
+/* Footer */
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+/* Footer Contacto */
+.div_contenedorFooterDiv{
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul_contacto{
+    align-items: center;
+}
+
+.titulo_contacto_footer{
+    text-decoration: underline;
+}
+
+.li_contacto_footer{
+    display: block;
+    
+}
+
+.ancla_contacto_footer{
+    padding: 1%;
+    color: white;
+    font-size: xx-large;
+}
+.ancla_contacto_footer:hover{
+    transition: 1.04s;
+    color: maroon;
+}
+
+/*Footer Medios de pago */
+
+.ul_mediosPagos{
+    display: block;
+    justify-content: center;
+}
+
+.titulo_Pagos{
+    text-decoration: underline;
+}
+
+.li_medios_pagos{
+    list-style: none;
+}
+
+
+/* Footer Navegacion */
+
+.ul_navegacion{
+    display: block;
+}
+
+.titulo_navegacion{
+    text-decoration: underline;
+}
+
+.li_navegacion{
+    list-style: none;
+}
+
+.ancla_navegacion{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.ancla_navegacion:hover{
+    transition: 1.04s;
+    color: maroon;
+}
+
+.p_copyrigh{
+    text-align: center;
+}
