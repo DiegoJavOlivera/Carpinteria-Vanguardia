@@ -1,12 +1,12 @@
 *{
     padding: 0;
     margin: 0;
-    
 }
 /* index*/
 
 body{
-    background-color: white
+    background-color: white;
+    
 }
 
 .logoNav{
@@ -29,6 +29,14 @@ body{
     text-align: center;
 }
 
+.parrafo_indexPresentacion{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin: 10rem 5rem 10rem 5rem;
+}
+
+
 .bloque_botom1{
     padding: 3%;
     margin: 50px;
@@ -41,11 +49,28 @@ body{
 }
 
 .button_idex{
-    padding: 1%;
-    box-shadow: 0 5px 28px 0 maroon;
-    border-radius: 5px;
-    background: gray;
     text-decoration: none;
+    background-color: transparent;
+    font-weight: bolder;
+    color: #444;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    border: 2px solid #eee;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition:  all 1s ease;
+    box-shadow:  .5rem .5rem 1rem #ccc,
+    -.5rem -.5rem 1rem #fff;
+}
+.button_idex:hover{
+    color: black;
+    box-shadow:  .5rem .5rem 1rem #fff,
+    -.5rem -.5rem 1rem #ccc;
+}
+
+.button_idex:active{
+    box-shadow: inset .2rem .2rem 1rem #fff,
+    -.2rem -.2rem 1rem #ccc;
 }
 
 .preguntasFrecuentes{
@@ -62,8 +87,47 @@ body{
     margin-left: 450px;
     margin-bottom: 50px;
 }
-/* Footer */
 
+/*nosotros */
+.section_nosotros_main{
+    display: block;
+}
+
+.text_presentacion{
+    margin: 5rem 5rem 10rem 5rem;
+    font-size: x-large;
+    text-align: start;
+}
+
+
+.div_animacion{
+    display: flex;
+    margin: 0 5rem 5rem 5rem ;
+}
+
+
+.parrafo_nosotrosAni{
+    text-align: start;
+    margin: 5rem 3rem 5rem 3rem;
+    font-size: x-large;
+}
+
+.img_nos{
+    width: 30rem;
+    height: 20rem;
+}
+.img_nos:hover{
+    transition: 0.3s ease;
+    transform: scale(1.20);
+}
+
+.parrafo_nosotrosFinal{
+    margin: 5rem 5rem 10rem 5rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+/* Footer */
 
 footer{
     background-color: black;
